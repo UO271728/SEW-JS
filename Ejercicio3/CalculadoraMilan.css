@@ -10,14 +10,24 @@ main{
     grid-template-columns: repeat(5,1fr);
     margin: 8em;
     border-style: solid;
-    background-color: cadetblue;
+    background-color: blue;
 }
 
-main>input[type="text"]{
+main>label{
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
+    color:white;
+}
+
+
+
+main>input[type="text"]{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
     padding: 25px;
     background-color: grey;
     color:black;
@@ -26,8 +36,8 @@ main>input[type="text"]{
 main>input[value="+"]{
     grid-column-start: 4;
     grid-column-end: 4;
-    grid-row-start:5;
-    grid-row-end: 7;
+    grid-row-start:6;
+    grid-row-end: 8;
 }
 
 input{

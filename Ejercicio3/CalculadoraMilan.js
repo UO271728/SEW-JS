@@ -209,13 +209,13 @@ class Calculadora{
     }
 
     ce(){
-        if(this.cadena.length >1){
-            this.cadena = this.cadena.substring(0,this.cadena.length-1);
-            document.getElementById("pantalla").value = this.cadena;
+        if(this.operando2!=""){
+            this.operando2 = "0"
+            document.getElementById("pantalla").value = this.operando2;
         }
         else{
-            this.cadena = '0';
-            document.getElementById("pantalla").value = this.cadena;
+            this.operando1 = "0";
+            document.getElementById("pantalla").value = this.operando1;
         }
     }
 
