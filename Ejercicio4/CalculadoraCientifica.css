@@ -1,0 +1,35 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 8em;
+    border-style: solid;
+    background-color: cadetblue;
+}
+
+main>input[type="text"]{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 25px;
+    background-color: grey;
+    color:black;
+}
+
+
+
+input{
+    margin: 0.25em;
+    padding:15px;
+    background-color: gray;
+    color:white;
+}
+
+
