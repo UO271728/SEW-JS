@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Rafael Muñiz Reguera"/>
+    <meta name="description" content="Simulacion de una calculadora MILAN"/>
+    <meta name="keywords" content=""/>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="calculadoraMilan.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="CalculadoraMilan.js"></script>
+    <script>var calculadora = new Calculadora()</script>
+</head>
+<body>
+        <h1>Calculadora</h1>
+    <main>
+        <input type="text" id="pantalla" name="pantalla" readonly >
+        <input type="button" value="ON" onclick="calculadora.on()">
+        <input type="button" value="CE" onclick="calculadora.ce()">
+        <input type="button" value="+/-" onclick="calculadora.cambioSigno()">
+        <input type="button" value="√" onclick="calculadora.raiz()">
+        <input type="button" value="%" onclick="calculadora.porcentaje()">
+        <input type="button" value="7" onclick="calculadora.digitos('7')">
+        <input type="button" value="8" onclick="calculadora.digitos('8')">
+        <input type="button" value="9" onclick="calculadora.digitos('9')">
+        <input type="button" value="x" onclick="calculadora.multiplicacion()">
+        <input type="button" value="/" onclick="calculadora.division()">
+        <input type="button" value="4" onclick="calculadora.digitos('4')">
+        <input type="button" value="5" onclick="calculadora.digitos('5')">
+        <input type="button" value="6" onclick="calculadora.digitos('6')">
+        <input type="button" value="-" onclick="calculadora.resta()">
+        <input type="button" value="MAC" onclick="calculadora.mrc()">
+        <input type="button" value="1" onclick="calculadora.digitos('1')">
+        <input type="button" value="2" onclick="calculadora.digitos('2')">
+        <input type="button" value="3" onclick="calculadora.digitos('3')">
+        <input type="button" value="+" onclick="calculadora.suma()">
+        <input type="button" value="M+" onclick="calculadora.mMas()">
+        <input type="button" value="0" onclick="calculadora.digitos('0')">
+        <input type="button" value="." onclick="calculadora.punto()">
+        <input type="button" value="=" onclick="calculadora.igual()">
+        <input type="button" value="M-" onclick="calculadora.mMenos()">
+    </main>
+    <section>
+    <h2>Muestra de errores</h2>
+    <input type="text" id="errores" readonly>
+    </section>
+    <section>
+        <h2>Documentacion</h2>
+        <p>Para utilizar la calculadora se debe de pulsar una serie de digitos, despues añadir un operador y otra serie de digitos que serán el siguiente operando.
+            Posteriormente se le dará el boton de igual si se desea acabar la operacion u otro operador en caso de seguir con la operación.</p>    
+    </section>
+</body>
+</html>
