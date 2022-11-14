@@ -21,8 +21,6 @@ main>label{
     color:white;
 }
 
-
-
 main>input[type="text"]{
     grid-column-start: 1;
     grid-column-end: 6;
@@ -43,8 +41,8 @@ main>input[value="+"]{
 input{
     margin: 0.25em;
     padding:15px;
-    background-color: gray;
-    color:white;
+    background-color: beige;
+    
 }
 
 
