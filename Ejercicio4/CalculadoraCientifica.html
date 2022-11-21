@@ -14,13 +14,13 @@
 <body>
         <h1>Calculadora</h1>
         <main>
+        <label for="cadena">Cadena</label>
         <input type="text" id="cadena" name="cadena" readonly>
+        <label for="pantalla">Pantalla</label>
         <input type="text" id="pantalla" name="pantalla" readonly>
         <input type="button" name="unidades" value="DEG" onclick="calculadora.unidadesBoton()">
         <input type="button" name="HYP" value="HYP" onclick="calculadora.HYP()">
         <input type="button" name="F-E" value="F-E" onclick="calculadora.fe()">
-        <label></label>
-        <label></label>
         <input type="button" name="MC" value="MC" onclick="calculadora.mc()">
         <input type="button" name="MR" value="MR" onclick="calculadora.mr()">
         <input type="button" name="M+" value="M+" onclick="calculadora.mMas()">
@@ -63,10 +63,7 @@
         <input type="button" value="=" onclick="calculadora.igual()">
 
     </main>
-    <section>
-    <h2>Muestra de errores</h2>
-    <input type="text" id="errores" readonly>
-    </section>
+
     <section>
         <h2>Documentacion</h2>
         <p>Para utilizar la calculadora se debe de pulsar una serie de digitos, despues añadir un operador y otra serie de digitos que serán el siguiente operando.
