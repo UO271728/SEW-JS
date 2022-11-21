@@ -10,26 +10,61 @@ main{
     grid-template-columns: repeat(5,1fr);
     margin: 8em;
     border-style: solid;
-    background-color: cadetblue;
+    background-color: rgb(219, 216, 216);
+    border: none;
 }
 
-main>input[type="text"]{
+main>input[type="text"][name="cadena"]{
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
     padding: 25px;
-    background-color: grey;
-    color:black;
+    border-top: 0em;
+    text-align: right;
+    font-size:12px;
+    border:none;
+    font-size:15px;
+    background-color: rgb(219, 216, 216);
 }
 
+main>input[type="text"][name="pantalla"]{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 25px;
+    border-top: 0em;
+    text-align: right;
+    font-size:12px;
+    border:none;
+    font-size:30px;
+    background-color: rgb(219, 216, 216);
+}
 
+input[name="cero"],input[name="uno"],input[name="dos"],input[name="tres"],input[name="cuatro"],input[name="cinco"],input[name="seis"],input[name="siete"],
+input[name="ocho"],input[name="nueve"],input[name="punto"]{
+    background-color: white;
+}
 
 input{
-    margin: 0.25em;
     padding:15px;
-    background-color: gray;
-    color:white;
+    background-color: fafafa;
+    margin:0.1em;
+    border:none;
 }
+
+main>input[type="button"]:active{
+    background-color: aliceblue;
+}
+
+main>input[type="button"]:hover{
+    background-color: rgb(177, 176, 176);
+}
+
+input[name="unidades"],input[name="HYP"],input[name="F-E"],input[name="MC"],input[name="MR"],input[name="M+"],input[name="M-"],input[name="MS"]{
+    background-color: rgb(219, 216, 216);
+}
+
 
 
