@@ -58,8 +58,9 @@ label[for="cadena"]{
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
-    font-size:1.25em;
+    font-size:1.5625em;
     background-color: white;
+    font-weight: bolder;
 }
 
 label[for="pantalla"]{
@@ -67,8 +68,9 @@ label[for="pantalla"]{
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 3;
-    font-size:1.25em;
+    font-size:1.5625em;
     background-color: white;
+    font-weight: bolder;
 }
 
 main>input[name="F-E"]{
