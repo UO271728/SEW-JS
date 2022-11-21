@@ -3,17 +3,17 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    background-color: rgb(115, 160, 101);
+    background-color: #78A46A;
 }
 
 main{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     border-style: solid;
-    background-color: rgb(113, 113, 116);
+    background-color: #717174;
     margin:0 auto;
-    width: 70vh;
-    min-width: 50vh;
+    max-width: 70%;
+    min-width: 30%;
     border-radius: 0.10em;
     padding: 0.5em;
     
