@@ -3,14 +3,20 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    background-color: rgb(115, 160, 101);
 }
 
 main{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    margin: 8em;
     border-style: solid;
-    background-color: blue;
+    background-color: rgb(113, 113, 116);
+    margin:0 auto;
+    width: 70vh;
+    min-width: 50vh;
+    border-radius: 0.10em;
+    padding: 0.5em;
+    
 }
 
 main>label{
@@ -27,8 +33,10 @@ main>input[type="text"]{
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 25px;
-    background-color: grey;
+    background-color: rgb(184, 238, 187);
     color:black;
+    text-align: right;
+    margin:0.25em;
 }
 
 main>input[value="+"]{
@@ -39,10 +47,13 @@ main>input[value="+"]{
 }
 
 input{
-    margin: 0.25em;
+    margin: 0.05em;
     padding:15px;
     background-color: beige;
-    
+}
+
+main>input[type="button"]:active{
+    background-color: aliceblue;
 }
 
 
