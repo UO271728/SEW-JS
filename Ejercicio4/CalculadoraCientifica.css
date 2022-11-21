@@ -9,7 +9,7 @@ main{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     margin: 8em;
-    background-color: rgb(219, 216, 216);
+    background-color: rgb(218, 216, 216);
     border: none;
     margin:0 auto;
     max-width: 65%;
@@ -59,6 +59,7 @@ label[for="cadena"]{
     grid-row-start: 1;
     grid-row-end: 1;
     font-size:1.25em;
+    background-color: white;
 }
 
 label[for="pantalla"]{
@@ -67,6 +68,7 @@ label[for="pantalla"]{
     grid-row-start: 3;
     grid-row-end: 3;
     font-size:1.25em;
+    background-color: white;
 }
 
 main>input[name="F-E"]{
