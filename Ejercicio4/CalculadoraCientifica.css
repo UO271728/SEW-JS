@@ -59,7 +59,8 @@ label[for="cadena"]{
     grid-row-start: 1;
     grid-row-end: 1;
     font-size:1.5625em;
-    background-color: white;
+    background-color: black;
+    color:white;
     font-weight: bolder;
 }
 
@@ -69,7 +70,8 @@ label[for="pantalla"]{
     grid-row-start: 3;
     grid-row-end: 3;
     font-size:1.5625em;
-    background-color: white;
+    background-color: black;
+    color: white;
     font-weight: bolder;
 }
 
