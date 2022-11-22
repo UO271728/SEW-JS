@@ -1,0 +1,60 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 auto;
+    border-style: solid;
+    background-color: #c7c7c7af;
+    max-height: fit-content;
+    width:50%;
+    height:auto;
+}
+
+
+textarea{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 11.666666666666666em;
+    border-top: 0em;
+    text-align:top;
+    font-size: 1em;
+    resize: none;
+}
+
+label{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size:1em;
+    background-color: #c7c7c7af;
+}
+
+input{
+    padding:1.1250028125070313em;
+    margin:0.5em;
+    
+}
+
+main>input[type="button"]:active{
+    background-color: aliceblue;
+}
+
+main>input[name="enter"]{
+    grid-column-start:4;
+    grid-column-end:6;
+    grid-row-start: 3;
+    grid-row-end:3;
+    text-align: center;
+}
+
+
+

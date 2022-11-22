@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #78A46A;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border-style: solid;
+    background-color: #717174;
+    margin:0 auto;
+    max-width: 70%;
+    min-width: 30%;
+    border-radius: 0.10em;
+    padding: 0.5em;
+    
+}
+
+main>label{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color:white;
+}
+
+main>input[type="text"]{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 1.8750046875117188em;
+    background-color: rgb(184, 238, 187);
+    color:black;
+    text-align: right;
+    margin:0.25em;
+}
+
+main>input[value="+"]{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start:6;
+    grid-row-end: 8;
+}
+
+input{
+    margin: 0.05em;
+    padding:1.1250028125070313em;
+    background-color: beige;
+}
+
+main>input[type="button"]:active{
+    background-color: aliceblue;
+}
+
+
