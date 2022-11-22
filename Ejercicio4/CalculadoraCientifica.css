@@ -10,7 +10,7 @@ main{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     margin: 8em;
-    background-color: rgb(218, 216, 216);
+    background-color: #dad8d8;
     border: none;
     margin:0 auto;
     max-width: 65%;
