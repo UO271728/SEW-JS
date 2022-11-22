@@ -1,0 +1,32 @@
+/* Especifidad = (0,0,1)*/
+h1{
+    background-color: aqua;
+    font-family: "system-ui";
+    padding:2.5em;
+    text-align:center;
+}
+
+/* Especifidad = (0,0,1)*/
+h2{
+    background-color: aquamarine;
+    font-family:"Times New Roman",Times,serif;
+    font-size:1em;
+}
+
+/* Especifidad = (0,0,1)*/
+h3{
+    background-color: beige;
+    font-family:"Arial",Helvetica,sans-serif;
+}
+
+/* Especifidad = (0,0,1)*/
+h4{
+    background-color: bisque;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Especifidad = (0,0,1)*/
+p{  
+    background-color: blanchedalmond;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
