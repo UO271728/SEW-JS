@@ -266,6 +266,7 @@ class CalculadoraCientifica extends Calculadora{
         this.flechaAct = new Boolean(false);
         this.feAct = false;
         this.unidades = ["DEG","RAD","GRAD"];
+        this.hypAct = false;
     }
 
     registrarTecla(tecla){
@@ -445,28 +446,60 @@ class CalculadoraCientifica extends Calculadora{
 
     seno(){
         if(this.flechaAct == false){
-            this.#operacionTrigonometrica("Seno");
+            if(this.hypAct == false){
+                this.#operacionTrigonometrica("Seno");
+            }
+            else{
+                this.#operacionTrigonometrica("Senoh");
+            }
         }
         else{
-            this.#operacionTrigonometrica("Secante");
+            if(this.hypAct == false){
+                this.#operacionTrigonometrica("Secante");
+                
+            }
+            else{
+                this.#operacionTrigonometrica("Secanteh");
+            }
         }
     }
 
     coseno(){
         if(this.flechaAct == false){
-            this.#operacionTrigonometrica("Coseno");
+            if(this.hypAct == false){
+                this.#operacionTrigonometrica("Coseno");
+            }
+            else{
+                this.#operacionTrigonometrica("Cosenoh");
+            }
         }
         else{
-            this.#operacionTrigonometrica("Cosecante")
+            if(this.hypAct == false){
+                this.#operacionTrigonometrica("Cosecante")
+                
+            }
+            else{
+                this.#operacionTrigonometrica("Cosecanteh");
+            }
         }
     }
 
     tangente(){
         if(this.flechaAct == false){
-            this.#operacionTrigonometrica("Tangente");
+            if(this.hypAct == false){
+                this.#operacionTrigonometrica("Tangente");
+            }
+            else{
+                this.#operacionTrigonometrica("Tangenteh");
+            }
         }
         else{
-            this.#operacionTrigonometrica("Cotangente");
+            if(this.hypAct == false){
+                this.#operacionTrigonometrica("Cotangente");
+            }
+            else{
+                this.#operacionTrigonometrica("Cotangenteh");
+            }
         }
     }
 
@@ -552,6 +585,18 @@ class CalculadoraCientifica extends Calculadora{
                 return Math.acos(parametro);
             case "Cotangente":
                 return Math.atan(parametro);
+            case"Senoh":
+                return Math.sinh(parametro);
+            case "Cosenoh":
+                return Math.cosh(parametro);
+            case "Tangenteh":
+                return Math.tanh(parametro);
+            case "Secanteh":
+                return Math.asinh(parametro);
+            case "Cosecanteh":
+                return Math.acosh(parametro);
+            case "Cotangenteh":
+                return Math.atanh(parametro);
         }
     }
 
@@ -676,6 +721,16 @@ class CalculadoraCientifica extends Calculadora{
                 return Number(this.pantalla);
             case "GRAD":
                 return (Number(this.pantalla) * Math.PI) / 200;
+        }
+    }
+
+    
+    hyp(){
+        if(this.hypAct == false){
+            this.hypAct = true;
+        }
+        else{
+            this.hypAct = false;
         }
     }
 

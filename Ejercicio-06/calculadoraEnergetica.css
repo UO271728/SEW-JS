@@ -1,3 +1,4 @@
+/* Especifidad = (0,0,1)*/
 body{
     display:flex;
     flex-direction: column;
@@ -5,6 +6,7 @@ body{
     text-align: center;
 }
 
+/* Especifidad = (0,0,1)*/
 main{
     display: grid;
     grid-template-columns: repeat(5,20%);
@@ -15,7 +17,7 @@ main{
     height:auto;
 }
 
-
+/* Especifidad = (0,0,1)*/
 textarea{
     grid-column-start: 1;
     grid-column-end: 6;
@@ -26,6 +28,7 @@ textarea{
     resize: none;
 }
 
+/* Especifidad = (0,0,1)*/
 label{
     grid-column-start: 1;
     grid-column-end: 6;
@@ -35,15 +38,18 @@ label{
     background-color: #a8fd97;
 }
 
+/* Especifidad = (0,0,1)*/
 input{
     padding:1.1250028125070313em;
     margin:0.5em;
 }
 
+/* Especifidad = (0,2,2)*/
 main>input[type="button"]:active{
     background-color: aliceblue;
 }
 
+/* Especifidad = (0,1,2)*/
 main>input[name="enter"]{
     grid-column-start:4;
     grid-column-end:6;

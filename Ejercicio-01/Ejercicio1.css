@@ -1,7 +1,6 @@
 /* Especifidad = (0,0,1)*/
 h1{
     background-color: aqua;
-    font-family: "system-ui";
     padding:2.5em;
     text-align:center;
 }
@@ -22,6 +21,7 @@ h3{
 /* Especifidad = (0,0,1)*/
 h4{
     background-color: bisque;
+    border-style: double;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 

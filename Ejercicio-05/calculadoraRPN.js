@@ -32,6 +32,33 @@ class CalculadoraRPN{
             this.division();
         }
 
+        else if(tecla == "e"){
+            this.raiz();
+        }
+
+        else if(tecla == "l"){
+            this.log();
+        }
+
+        else if(tecla == "s"){
+            this.seno();
+        }
+
+        else if(tecla == "c"){
+            this.coseno();
+        }
+        else if(tecla == "h"){
+            this.shift();
+        }
+
+        else if(tecla == "t"){
+            this.tangente();
+        }
+
+        else if(tecla == "n"){
+            this.ln();
+        }
+
         else if(tecla == "."){
             this.punto();
         }
