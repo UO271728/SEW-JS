@@ -7,12 +7,11 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5,20%);
     margin: 0 auto;
     border-style: solid;
     background-color: #c7c7c7af;
-    max-height: fit-content;
-    width:50%;
+    max-width:80%;
     height:auto;
 }
 
@@ -22,8 +21,8 @@ textarea{
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
-    height: 140px;
-    font-size:12px;
+    height: 11.666666666666666em;
+    font-size:1em;
     resize: none;
 }
 
@@ -32,12 +31,12 @@ label{
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
-    font-size:25px;
+    font-size:1em;
     background-color: #a8fd97;
 }
 
 input{
-    padding:15px;
+    padding:1.1250028125070313em;
     margin:0.5em;
 }
 

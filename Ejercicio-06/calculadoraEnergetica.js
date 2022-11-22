@@ -210,7 +210,8 @@ class CalculadoraRPN{
             pantallaFinal+=Number(i)+1+": \t \t "+this.pila[i]+"\n";
         }
         pantallaFinal+=(this.pila.length+1)+": \t \t "+this.actual;
-        document.getElementById("pantalla").value = pantallaFinal;
+        document.getElementsByTagName("textarea").item(0).value = pantallaFinal;
+
     }
 
     #operacionBasica(operador){
@@ -371,12 +372,12 @@ class CalculadoraEnergetica extends CalculadoraRPN{
             pantallaFinal+=Number(i)+1+":\t"+this.pila[i]+"\n";
         }
         pantallaFinal+=(this.pila.length+1)+":\t"+this.actual;
-        document.querySelector("textarea[name='pantalla']").setAttribute('value',pantallaFinal);
+        document.getElementsByTagName("textarea").item(0).value = pantallaFinal;
     }
 
     #mostrarConsumo(consumido,precio){
         var cadenaFinal = "Consumido: "+consumido+" KWh - Precio: "+precio+" €";
-        document.querySelector("textarea[name='pantalla']").setAttribute('value',cadenaFinal);
+        document.getElementsByTagName("textarea").item(0).value = cadenaFinal;
     }
 
     on(){
