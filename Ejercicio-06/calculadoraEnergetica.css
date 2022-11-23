@@ -36,7 +36,8 @@ label{
     grid-row-start: 1;
     grid-row-end: 1;
     font-size:1em;
-    background-color: #a8fd97;
+    background-color: #000;
+    color:#fff;
 }
 
 /* Especifidad = (0,0,1)*/
