@@ -10,7 +10,7 @@ class Calculadora{
         this.i = 0;
         
         document.addEventListener('keydown',(event) =>{
-            this.registrarTecla(event.key);
+            this.registrarTecla(event);
         });
     }
 
@@ -269,9 +269,28 @@ class CalculadoraCientifica extends Calculadora{
         this.hypAct = false;
     }
 
-    registrarTecla(tecla){
+    registrarTecla(evento){
+        var tecla = evento.key; 
         if(tecla == "0" || tecla == "1" || tecla == "2" || tecla == "3" || tecla == "4" || tecla == "5" || tecla == "6" || tecla == "7" || tecla == "8" || tecla == "9"){
             this.digitos(tecla);
+        }
+        else if(tecla == "m" && evento.altKey){
+            this.mod();
+        }
+        else if(tecla == "t" && evento.altKey){
+            this.factorial();
+        }
+        else if(tecla == "s" && evento.altKey){
+            this.seno();
+        }
+        else if(tecla == "c" && evento.altKey){
+            this.coseno();
+        }
+        else if(tecla == "x" && evento.altKey){
+            this.fe();
+        }
+        else if(tecla == "d" && evento.altKey){
+            this.unidadesBoton();
         }
         else if(tecla == "+"){
             this.suma();
@@ -332,6 +351,33 @@ class CalculadoraCientifica extends Calculadora{
         }
         else if(tecla == "t"){
             this.tangente();
+        }
+        
+        else if(tecla == "f"){
+            this.flecha();
+        }
+        else if(tecla == "e"){
+            this.exp();
+        }
+        else if(tecla == "l"){
+            this.log();
+        }
+        else if(tecla == "d"){
+            this.potencia10();
+        }
+        
+        else if(tecla == "u"){
+            this.potenciaCuadrado();
+        }
+        else if(tecla == "y"){
+            this.potenciaxy();
+        }
+        
+        else if(tecla == "h"){
+            this.hyp();
+        }
+        else if(tecla == "i"){
+            this.pi();
         }
         else if(tecla == "Backspace"){
             this.borrar();
@@ -629,16 +675,13 @@ class CalculadoraCientifica extends Calculadora{
     mostrarPantalla(){
         if(this.feAct == true || this.action =="punto"){          
             document.querySelector("input[name='pantalla']").setAttribute('value',this.pantalla);
-            //document.getElementById("pantalla").value = this.pantalla;
         }
         else{
             document.querySelector("input[name='pantalla']").setAttribute('value',Number(this.pantalla));
-            //document.getElementById("pantalla").value = Number(this.pantalla);
         }
     }
 
     mostrarCadena(){
-        //document.getElementById("cadena").value = this.cadena;
         document.querySelector("input[name='cadena']").setAttribute('value',this.cadena);
     }
 

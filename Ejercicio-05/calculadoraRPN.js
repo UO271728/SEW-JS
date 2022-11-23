@@ -8,13 +8,23 @@ class CalculadoraRPN{
         this.inicio = true;
 
         document.addEventListener('keydown',(event) =>{
-            this.registrarTecla(event.key);
+            this.registrarTecla(event);
         });
     }
 
-    registrarTecla(tecla){
+    registrarTecla(evento){
+        var tecla = evento.key;
         if(tecla == "0" || tecla == "1" || tecla == "2" || tecla == "3" || tecla == "4" || tecla == "5" || tecla == "6" || tecla == "7" || tecla == "8" || tecla == "9"){
             this.digitos(tecla);
+        }
+        else if(tecla == "l" && evento.altKey){
+            this.ln();
+        }
+        else if(tecla == "s" && evento.altKey){
+            this.seno();
+        }
+        else if(tecla =="c" && evento.altKey){
+            this.coseno();
         }
         else if(tecla == "+"){
             this.suma();
@@ -32,16 +42,12 @@ class CalculadoraRPN{
             this.division();
         }
 
-        else if(tecla == "e"){
+        else if(tecla == "r"){
             this.raiz();
         }
 
         else if(tecla == "l"){
             this.log();
-        }
-
-        else if(tecla == "s"){
-            this.seno();
         }
 
         else if(tecla == "c"){
@@ -55,10 +61,19 @@ class CalculadoraRPN{
             this.tangente();
         }
 
+        else if(tecla == "y"){
+            this.xpotenciay();
+        }
+
         else if(tecla == "n"){
             this.ln();
         }
-
+        else if(tecla == "u"){
+            this.potenciaCuadrado();
+        }
+        else if(tecla == "s"){
+            this.cambioSigno();
+        }
         else if(tecla == "."){
             this.punto();
         }
@@ -105,6 +120,13 @@ class CalculadoraRPN{
 
     potenciaCuadrado(){
         var resultado = this.#operacionEspecial("PotenciaCuadrado");
+        this.pila.push(resultado)
+        this.actual = "";
+        this.#mostrarPantalla();
+    }
+
+    xpotenciay(){
+        var resultado = this.#operacionEspecial("xpotenciay");
         this.pila.push(resultado)
         this.actual = "";
         this.#mostrarPantalla();
@@ -237,7 +259,7 @@ class CalculadoraRPN{
             pantallaFinal+=Number(i)+1+": \t \t "+this.pila[i]+"\n";
         }
         pantallaFinal+=(this.pila.length+1)+": \t \t "+this.actual;
-        document.getElementById("pantalla").value = pantallaFinal;
+        document.getElementsByTagName("textarea").item(0).value = pantallaFinal;
     }
 
     #operacionBasica(operador){
@@ -263,7 +285,7 @@ class CalculadoraRPN{
         else{
             var operando2 = this.pila.pop();
             if(operador == "xpotenciay"){
-                return Math.pow(Number(operando,operando2));
+                return Math.pow(Number(operando),Number(operando2));
             }
             else{
                 var operando3 = this.pila.pop();
@@ -295,6 +317,4 @@ class CalculadoraRPN{
                 return Math.atan(Number(operando));
         }
     }
-
-
 }

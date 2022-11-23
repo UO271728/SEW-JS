@@ -57,9 +57,6 @@ class Calculadora{
         else if(tecla == "s"){
             this.cambioSigno();
         }
-        else if(tecla == "p"){
-            this.porcentaje();
-        }
         else if(tecla == "m"){
             this.mMas();
         }
