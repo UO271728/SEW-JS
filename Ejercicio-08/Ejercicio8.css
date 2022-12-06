@@ -1,0 +1,23 @@
+h1{
+    background-color: #0000ff;
+    color:#ffffff;
+    padding:2em;
+    text-align: center;
+}
+
+h2{
+    background-color: aquamarine;
+    color:black;
+    padding:1.5em;
+    margin: 0 auto;
+}
+
+section{
+    border-radius: 0.25em;
+    border-style: double;
+    margin:0.25em;
+}
+
+img{
+    margin:0.5em;
+}
