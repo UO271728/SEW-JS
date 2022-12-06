@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rafael Muñiz Reguera">
+    <meta name="description" content="Ejercicio8">
+    <meta name="keywords" content="Rust,popularidad,StackOverflow,evolucion">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css">
+    <script src="Ejercicio12.js"></script>
+    <script>var analizador = new AnalizadorArchivos();</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Lector de archivos</h1>
+    <section>
+    <h2>Archivo</h2>
+    <label for="file">Introducir un archivo para poder dar su informacion</label>
+    <input id="file" type="file" name="archivo" multiple="" onchange="analizador.analizarArchivos(this.files)">
+    </section>
+    <main><section><h2> Archivo p5_tr_cell.csv</h2><p> Nombre del archivo: p5_tr_cell.csv </p><p> Tamaño del archivo: 1371 </p><p> Tipo del archivo: text/csv </p><p> Ultima modificacion del archivo: Thu Dec 01 2022 19:27:38 GMT+0100 (hora estándar de Europa central) </p></section><section><h2> Archivo Ejemplo.json</h2><p> Nombre del archivo: Ejemplo.json </p><p> Tamaño del archivo: 869 </p><p> Tipo del archivo: application/json </p><p> Ultima modificacion del archivo: Mon Dec 05 2022 13:16:33 GMT+0100 (hora estándar de Europa central) </p><h2>Contenido:</h2><pre>{
+"squadName": "Super hero squad",
+"homeTown": "Metro City",
+"formed": 2016,
+"secretBase": "Super tower",
+"active": true,
+"members": [
+{
+  "name": "Molecule Man",
+  "age": 29,
+  "secretIdentity": "Dan Jukes",
+  "powers": [
+    "Radiation resistance",
+    "Turning tiny",
+    "Radiation blast"
+  ]
+},
+{
+  "name": "Madame Uppercut",
+  "age": 39,
+  "secretIdentity": "Jane Wilson",
+  "powers": [
+    "Million tonne punch",
+    "Damage resistance",
+    "Superhuman reflexes"
+  ]
+},
+{
+  "name": "Eternal Flame",
+  "age": 1000000,
+  "secretIdentity": "Unknown",
+  "powers": [
+    "Immortality",
+    "Heat Immunity",
+    "Inferno",
+    "Teleportation",
+    "Interdimensional travel"
+  ]
+}
+]
+}
+</pre></section><section><h2> Archivo Ejemplo.txt</h2><p> Nombre del archivo: Ejemplo.txt </p><p> Tamaño del archivo: 26 </p><p> Tipo del archivo: text/plain </p><p> Ultima modificacion del archivo: Mon Dec 05 2022 12:58:52 GMT+0100 (hora estándar de Europa central) </p><h2>Contenido:</h2><pre>Hola mundo. Aqui estoy yo.</pre></section><section><h2> Archivo Ejemplo.xml</h2><p> Nombre del archivo: Ejemplo.xml </p><p> Tamaño del archivo: 738 </p><p> Tipo del archivo: text/xml </p><p> Ultima modificacion del archivo: Mon Dec 05 2022 13:16:17 GMT+0100 (hora estándar de Europa central) </p><h2>Contenido:</h2><textarea>&lt;?xml version="1.0"?&gt;
+&lt;Catalog&gt;
+&lt;Book id="bk101"&gt;
+  &lt;Author&gt;Garghentini, Davide&lt;/Author&gt;
+  &lt;Title&gt;XML Developer's Guide&lt;/Title&gt;
+  &lt;Genre&gt;Computer&lt;/Genre&gt;
+  &lt;Price&gt;44.95&lt;/Price&gt;
+  &lt;PublishDate&gt;2000-10-01&lt;/PublishDate&gt;
+  &lt;Description&gt;An in-depth look at creating applications
+  with XML.&lt;/Description&gt;
+&lt;/Book&gt;
+&lt;Book id="bk102"&gt;
+  &lt;Author&gt;Garcia, Debra&lt;/Author&gt;
+  &lt;Title&gt;Midnight Rain&lt;/Title&gt;
+  &lt;Genre&gt;Fantasy&lt;/Genre&gt;
+  &lt;Price&gt;5.95&lt;/Price&gt;
+  &lt;PublishDate&gt;2000-12-16&lt;/PublishDate&gt;
+  &lt;Description&gt;A former architect battles corporate zombies,
+  an evil sorceress, and her own childhood to become queen
+  of the world.&lt;/Description&gt;
+&lt;/Book&gt;
+&lt;/Catalog&gt;</textarea></section></main>
+
+</body></html>
