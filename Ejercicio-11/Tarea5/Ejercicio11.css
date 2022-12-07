@@ -1,0 +1,14 @@
+h1{
+    padding:2em;
+    background-color: #14a714;
+    text-align:center;
+}
+
+
+
+main{
+    height:70vh;
+    width:90vw;
+    margin:auto;
+    border-style:double;
+}

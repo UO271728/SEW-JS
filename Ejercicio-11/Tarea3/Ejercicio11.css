@@ -1,0 +1,11 @@
+/* Especifidad = 001 */
+h1{
+    padding:2em;
+    background-color: #14a714;
+    text-align:center;
+}
+
+/* Especifidad = 001 */
+main{
+    text-align:center;
+}

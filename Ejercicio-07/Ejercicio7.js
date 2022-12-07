@@ -1,9 +1,12 @@
+"use stric"
 class Modificadora{
     
     constructor(){
         this.borrado = false;
         this.añadido = false;
         this.sumado = false;
+        this.modificado = false;
+        this.arbol = false;
     }
 
     /* Tarea 1*/
@@ -19,7 +22,12 @@ class Modificadora{
 
     /* Tarea 2*/
     modificar(){
-
+        if(this.arbol == false){
+            $("h2:last").text("Sueldos")
+        }
+        else{
+            $("h2").eq(2).text("Sueldos");
+        }
     }
 
     /* Tarea 3*/
@@ -48,13 +56,16 @@ class Modificadora{
 
     /* Tarea 5*/
     recorrerArbol(){
-        let str = "<h2> Recorrido de DOM </h2>\n";
-        $("*",document.body).each(function() {
-            var etiquetaPadre = $(this).parent().get(0).tagName;
-            var etiquetaPropia = $(this).get(0).tagName;
-            str+= "<p>Tipo del elemento padre:"+etiquetaPadre + " - Tipo del propio elemento "+ etiquetaPropia+"</p>"
-        });
-        $("body").last().append(str);
+        if(this.arbol == false){
+            let str = "<h2> Recorrido de DOM </h2>\n";
+            $("*",document.body).each(function() {
+                var etiquetaPadre = $(this).parent().get(0).tagName;
+                var etiquetaPropia = $(this).get(0).tagName;
+                str+= "<p>Tipo del elemento padre:"+etiquetaPadre + " - Tipo del propio elemento "+ etiquetaPropia+"</p>"
+            });
+            this.arbol = true;
+            $("body").last().append(str);
+        }
     }
 
     /* Tarea 6*/

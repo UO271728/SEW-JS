@@ -1,0 +1,238 @@
+{
+    "type": "FeatureCollection",
+    "features" :[{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.804361,43.379922]
+        },
+        "properties":{
+            "Description": "Residencia de Rafael Muniz Reguera"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.865408,43.357052]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Rafael Muniz Reguera"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-6.145806,43.563326]
+        },
+        "properties":{
+            "Description": "Residencia de Bill Gates"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-122.33207,47.60621]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Bill Gates"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.67732,43.52931]
+        },
+        "properties":{
+            "Description": "Residencia de Jeff Bezos"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-106.616667,35.116667]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Jeff Bezos"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-6.9437,43.5692]
+        },
+        "properties":{
+            "Description": "Residencia de Linus Torvalds"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [24.93417,60.17556]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Linus Torvalds"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.269754,43.513519]
+        },
+        "properties":{
+            "Description": "Residencia de Arthur Levinson"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-122.33207,47.60621]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Arthur Levinson"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-4.753084,43.421121]
+        },
+        "properties":{
+            "Description": "Residencia de Hideo Kojima"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [139.691722,35.689556]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Hideo Kojima"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-7.10807,43.3690394]
+        },
+        "properties":{
+            "Description": "Residencia de Edmund McMillen"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-122.026252,36.97205]
+        },
+        "properties":{
+            "Description": "Lugar de residencia de Edmund McMillen"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.066583,43.314462]
+        },
+        "properties":{
+            "Description": "Residencia de Keanu Charles Reeves"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [35.513056,33.886944]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Keanu Charles Reeves"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.580453,43.105834]
+        },
+        "properties":{
+            "Description": "Residencia de Hidetaka Miyazaki"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [138.3825,34.975556]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Hidetaka Miyazaki"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-6.539974,43.54543]
+        },
+        "properties":{
+            "Description": "Residencia de Guillermo del Toro"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-103.3475,20.676667]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Guillermo del Toro"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.922222,43.556111]
+        },
+        "properties":{
+            "Description": "Residencia de Tim Burton"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-118.328333,34.180278]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Tim Burton"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.850278,43.3625]
+        },
+        "properties":{
+            "Description": "Residencia de Steven Spielberg"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-84.5125,39.1]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Steven Spielberg"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [-5.505904,43.104401]
+        },
+        "properties":{
+            "Description": "Residencia de Peter Jackson"
+        }
+    },{
+        "type": "Feature",
+        "geometry":{
+            "type":"Point",
+            "coordinates": [174.777222,-41.288889]
+        },
+        "properties":{
+            "Description": "Lugar de nacimiento de Peter Jackson"
+        }
+    }]
+}

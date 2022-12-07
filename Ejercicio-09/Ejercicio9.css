@@ -1,3 +1,4 @@
+/* Especifidad = 001 */
 h1{
     background-color: #0000ff;
     color:#ffffff;
@@ -5,6 +6,7 @@ h1{
     text-align: center;
 }
 
+/* Especifidad = 001 */
 h2{
     background-color: aquamarine;
     color:black;
@@ -12,8 +14,14 @@ h2{
     margin: 0 auto;
 }
 
+/* Especifidad = 001 */
 section{
     border-radius: 0.25em;
     border-style: double;
     margin:0.25em;
+}
+
+/* Especifidad = 001 */
+img{
+    margin:0.5em;
 }

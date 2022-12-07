@@ -18,7 +18,6 @@ class Meteosat{
                 url:this.url+"lat="+coordenada[0]+"&lon="+coordenada[1]+"&units=metric&lang=es&appid="+this.apiKey,
                 method: 'GET',
                 success:function(data){
-
                     var str = "<section><h2>"+data.name+"</h2>";
                     str += "<ul><li>Tiempo: "+data.weather[0].main+"</li>\n";
                     str+= "<li>Descripcion: "+data.weather[0].description+"</li>\n";

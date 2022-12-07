@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id='Universidad de Oviedo'>
+<Placemark>
+<name>Rafael Muniz Reguera</name>
+<description>Residencia de Rafael Muniz Reguera</description>
+<Point>
+ <coordinates>
+-5.804361,43.379922
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rafael Muniz Reguera</name>
+<description>Lugar de nacimiento de Rafael Muniz Reguera</description>
+<Point>
+ <coordinates>
+-5.865408,43.357052
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bill Gates</name>
+<description>Residencia de Bill Gates</description>
+<Point>
+ <coordinates>
+-6.145806,43.563326
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bill Gates</name>
+<description>Lugar de nacimiento de Bill Gates</description>
+<Point>
+ <coordinates>
+-122.33207,47.60621
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jeff Bezos</name>
+<description>Residencia de Jeff Bezos</description>
+<Point>
+ <coordinates>
+-5.67732,43.52931
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jeff Bezos</name>
+<description>Lugar de nacimiento de Jeff Bezos</description>
+<Point>
+ <coordinates>
+-106.616667,35.116667
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Linus Torvalds</name>
+<description>Residencia de Linus Torvalds</description>
+<Point>
+ <coordinates>
+-6.9437,43.5692
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Linus Torvalds</name>
+<description>Lugar de nacimiento de Linus Torvalds</description>
+<Point>
+ <coordinates>
+24.93417,60.17556
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Arthur Levinson</name>
+<description>Residencia de Arthur Levinson</description>
+<Point>
+ <coordinates>
+-5.269754,43.513519
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Arthur Levinson</name>
+<description>Lugar de nacimiento de Arthur Levinson</description>
+<Point>
+ <coordinates>
+-122.33207,47.60621
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hideo Kojima</name>
+<description>Residencia de Hideo Kojima</description>
+<Point>
+ <coordinates>
+-4.753084,43.421121
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hideo Kojima</name>
+<description>Lugar de nacimiento de Hideo Kojima</description>
+<Point>
+ <coordinates>
+139.691722,35.689556
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Edmund McMillen</name>
+<description>Residencia de Edmund McMillen</description>
+<Point>
+ <coordinates>
+-7.10807,43.360394
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Edmund McMillen</name>
+<description>Lugar de nacimiento de Edmund McMillen</description>
+<Point>
+ <coordinates>
+-122.026252,36.97205
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Keanu Charles Reeves</name>
+<description>Residencia de Keanu Charles Reeves</description>
+<Point>
+ <coordinates>
+-5.066583,43.314462
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Keanu Charles Reeves</name>
+<description>Lugar de nacimiento de Keanu Charles Reeves</description>
+<Point>
+ <coordinates>
+35.513056,33.886944
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hidetaka Miyazaki</name>
+<description>Residencia de Hidetaka Miyazaki</description>
+<Point>
+ <coordinates>
+-5.580453,43.105834
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hidetaka Miyazaki</name>
+<description>Lugar de nacimiento de Hidetaka Miyazaki</description>
+<Point>
+ <coordinates>
+138.3825,34.975556
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guillermo del Toro</name>
+<description>Residencia de Guillermo del Toro</description>
+<Point>
+ <coordinates>
+-6.539974,43.54543
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guillermo del Toro</name>
+<description>Lugar de nacimiento de Guillermo del Toro</description>
+<Point>
+ <coordinates>
+-103.3475,20.676667
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tim Burton</name>
+<description>Residencia de Tim Burton</description>
+<Point>
+ <coordinates>
+-5.922222,43.556111
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tim Burton</name>
+<description>Lugar de nacimiento de Tim Burton</description>
+<Point>
+ <coordinates>
+-118.328333,34.180278
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Steven Spielberg</name>
+<description>Residencia de Steven Spielberg</description>
+<Point>
+ <coordinates>
+-5.850278,43.3625
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Steven Spielberg</name>
+<description>Lugar de nacimiento de Steven Spielberg</description>
+<Point>
+ <coordinates>
+-84.5125,39.1
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Peter Jackson</name>
+<description>Residencia de Peter Jackson</description>
+<Point>
+ <coordinates>
+-5.505904,43.104401
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Peter Jackson</name>
+<description>Lugar de nacimiento de Peter Jackson</description>
+<Point>
+ <coordinates>
+174.777222,-41.288889
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+</Document>
+</kml>

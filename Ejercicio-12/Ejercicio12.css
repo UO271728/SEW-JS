@@ -1,7 +1,7 @@
 h1{
     padding:2em;
-    background-color: darkgoldenrod;
-    color:white;
+    background-color: #D99F0D;
+    color:#000;
     text-align: center;
 }
 
@@ -19,6 +19,4 @@ section{
 textarea{
     max-width: 81.0625em;
     max-height: 21.3125em;
-    /*min-width: 30.75em;
-    min-height: 18.625em;*/
 }
