@@ -13,8 +13,9 @@
     </head>
     <body>
         <h1>El Precio del Oro</h1>
-        <p>Esta pagina se encarga de comparar el precio del oro con el precio de otros metales segun la fecha</p>     
-        <input type="date" onchange="comparadora.cambiarFecha(this.value)">
+        <p>Esta pagina se encarga de comparar el precio del oro con el precio de otros metales segun la fecha</p>    
+		<label for="fecha">Introducir fecha</label>
+        <input type="date" id="fecha" onchange="comparadora.cambiarFecha(this.value)">
         <span class="validity"></span>
         <main>
         </main>
